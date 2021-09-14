@@ -26,7 +26,6 @@ One of my friends is a huge Eren Yeager SIMP. So this mode was made for her. Whe
 
 <ul>
     <li>Eren can send a random picture of himself in the channel.</li>
-    <li>Can serve as a music bot since most are being taken down.</li>
     <li>OpenAI implementation.</li>
     <li>Improve this README cause this was done lazily lol</li>
 </ul>
