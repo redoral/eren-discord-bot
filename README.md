@@ -1,4 +1,4 @@
-# Eren Discord Bot ⚔️
+# Eren Yeager Discord Bot ⚔️
 
 A discord bot of Eren Yeager for my weeb friends. Made with discord.js. I regret everything.
 
