@@ -4,13 +4,13 @@ A Discord bot for my weeb friends. Made for fun and self-training.
 
 ## Usage
 
-#### Standard Mode
+### Standard Mode
 
 All you have to do is mention eren in the message and he'll reply with one of the quotes from the quotes array in the quotes.js file.
 
 <img src='./screenshots/2.jpg'>
 
-#### Yes or No Mode
+### Yes or No Mode
 
 You can ask Eren a 'yes or no' question by simply saying "eren yes or no" and he will reply with either a yes or a no. This is pretty straight forward.
 
