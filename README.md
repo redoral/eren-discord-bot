@@ -1,12 +1,12 @@
 # Eren Discord Bot ⚔️
 
-A Discord bot for my weeb friends. Made for fun and self-training.
+A discord bot of Eren Yeager for my weeb friends. Made with discord.js. I regret everything.
 
 ## Usage
 
 ### Standard
 
-All you have to do is mention eren in the message and he'll reply with one of the quotes from the quotes array in the quotes.js file.
+All you have to do is mention eren in the message and he'll reply with one of the quotes from the _standardReplies_ array in the _replies.js_ file.
 
 <img src='./screenshots/2.jpg'>
 
@@ -18,7 +18,7 @@ You can ask Eren a 'yes or no' question by simply saying "eren yes or no" and he
 
 ### SIMP Mode
 
-One of my friends is a huge Eren Yeager SIMP. So this mode was made for her. Whenever she calls Eren (Standard Mode) the responses for her are different.
+One of my friends is a huge Eren Yeager SIMP. So this mode was made for her. Whenever she calls Eren (Standard) the responses for her are different.
 
 <img src='./screenshots/3.jpg'>
 

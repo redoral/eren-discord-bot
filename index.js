@@ -1,10 +1,10 @@
-/** dotenv import so we can use environment variables */
+/** Imports */
+import Discord from 'discord.js';
 import dotenv from 'dotenv';
-import { quotes, simpMode, yesNo } from './quotes.js';
+import { standardReplies, simpReplies, yesNoReplies } from './replies.js';
 
 /** Initialize bot */
 dotenv.config();
-import Discord from 'discord.js';
 const bot = new Discord.Client();
 const TOKEN = process.env.TOKEN;
 
@@ -18,19 +18,21 @@ bot.on('ready', () => {
 	console.info(`Logged in as ${bot.user.tag}!`);
 });
 
-/** Sends a random quote if 'eren' is mentioned, or replies 'i love you' to my simp friend whenever she mentions eren */
+/** Message listener */
 bot.on('message', (msg) => {
 	if (msg.content.toLowerCase().includes('eren yes or no')) {
-		/** eren yes or no */
-		msg.reply(yesNo[Math.floor(Math.random() * yesNo.length)]);
+		/** Eren yes or no */
+		msg.reply(yesNoReplies[Math.floor(Math.random() * yesNoReplies.length)]);
 	} else if (
-		/** simp mode */
+		/** SIMP mode */
 		msg.content.toLowerCase().includes('eren') &&
 		msg.author.id === process.env.SIMP.toString()
 	) {
-		msg.reply(simpMode[Math.floor(Math.random() * simpMode.length)]);
+		msg.reply(simpReplies[Math.floor(Math.random() * simpReplies.length)]);
 	} else if (msg.content.toLowerCase().includes('eren')) {
-		/** standard eren mode */
-		msg.reply(quotes[Math.floor(Math.random() * quotes.length)]);
+		/** Standard eren mode */
+		msg.reply(
+			standardReplies[Math.floor(Math.random() * standardReplies.length)]
+		);
 	}
 });

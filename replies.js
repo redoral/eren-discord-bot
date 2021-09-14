@@ -1,5 +1,5 @@
 /** Eren's array of quotes */
-export const quotes = [
+export const standardReplies = [
 	"I have to be the one to do this! I've got to settle this!",
 	'That was a move I learned the hard way while you were lying around.',
 	'You say reality is living an easy life and giving into your feelings?',
@@ -15,11 +15,11 @@ export const quotes = [
 ];
 
 /** Eren's array of quotes for the simps, this is turning out to be a dating sim */
-export const simpMode = [
+export const simpReplies = [
 	'I love you.',
 	'I miss you.',
 	'Would you like to go out on a date?',
 ];
 
 /** Yes or no responses */
-export const yesNo = ['Yes', 'No'];
+export const yesNoReplies = ['Yes', 'No'];
