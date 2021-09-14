@@ -1,10 +1,10 @@
 /** dotenv import so we can use environment variables */
 import dotenv from 'dotenv';
-import { quotes, simpMode, yesNo } from './quotes';
+import { quotes, simpMode, yesNo } from './quotes.js';
 
 /** Initialize bot */
 dotenv.config();
-const Discord = require('discord.js');
+import Discord from 'discord.js';
 const bot = new Discord.Client();
 const TOKEN = process.env.TOKEN;
 
@@ -13,8 +13,8 @@ bot.login(TOKEN);
 
 /** Set bot status and log bot name */
 bot.on('ready', () => {
-	bot.user.setStatus('available');
-	bot.user.setActivity('Attack on Titan', { type: 'WATCHING' });
+	bot.user.setStatus('invisible');
+	// bot.user.setActivity('Attack on Titan', { type: 'WATCHING' });
 	console.info(`Logged in as ${bot.user.tag}!`);
 });
 
