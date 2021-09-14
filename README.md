@@ -1,27 +1,39 @@
-# How to Build Your First Discord Bot with Node.js
+# Eren Discord Bot ⚔️
 
-Michiel Mulders shows you how to install and set up a new Discord bot, which is made easier thanks to the API offered by the Discord.js package.
+A Discord bot for my weeb friends. Made for fun and self-training.
 
-Link to article on SitePoint: [https://www.sitepoint.com/discord-bot-node-js/](https://www.sitepoint.com/discord-bot-node-js/)
+## Usage
 
-## Requirements
+#### Standard Mode
 
-- [Node.js](http://nodejs.org/)
-- [Discord](https://discordapp.com/) account
+All you have to do is mention eren in the message and he'll reply with one of the quotes from the quotes array in the quotes.js file.
 
-## Installation Steps (if applicable)
+<img src='./screenshots/2.jpg'>
 
-1. Clone repo
-2. Run `npm install`
-3. Add Discord credentials in a `.env` file
-3. Run `node index.js`
-4. Interact with your Discord bot via your web browser
+#### Yes or No Mode
+
+You can ask Eren a 'yes or no' question by simply saying "eren yes or no" and he will reply with either a yes or a no. This is pretty straight forward.
+
+<img src='./screenshots/1.jpg'>
+
+### SIMP Mode
+
+One of my friends is a huge Eren Yeager SIMP. So this mode was made for her. Whenever she calls Eren (Standard Mode) the responses for her are different.
+
+<img src='./screenshots/3.jpg'>
+
+## Future Plans
+
+<ul>
+    <li>Eren can send a random picture of himself in the channel.</li>
+    <li>Can serve as a music bot since most are being taken down.</li>
+    <li>OpenAI implementation.</li>
+    <li>Improve this README cause this was done lazily lol</li>
+</ul>
 
 ## License
 
-SitePoint's code archives and code examples are licensed under the MIT license.
-
-Copyright © 2020 SitePoint
+The MIT License (MIT)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
