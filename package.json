@@ -10,7 +10,7 @@
 	"author": "Red Oral",
 	"license": "ISC",
 	"dependencies": {
-		"discord.js": "^11.5.1",
-		"dotenv": "^8.2.0"
+		"discord.js": "^11.6.4",
+		"dotenv": "^8.6.0"
 	}
 }
